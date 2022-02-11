@@ -6,6 +6,11 @@ The objective is to let your browser inject some CSS (that controls how things l
 
 This will not upload anything to FSE, just change how it looks *on your browser*. If you move to a different browser (e.g. your phone) you won't see any of this. It's all local to your machine and browser.
 
+## Examples
+
+![Airport](https://i.ibb.co/b5b3Mp0/screencapture-server-fseconomy-net-airport-jsp-2022-02-11-16-33-48.png)
+![Buy aircraft](https://i.ibb.co/ZVy4CtF/screencapture-server-fseconomy-net-aircraftforsale-jsp-2022-02-11-16-34-27.png)
+
 ## How to use
 
 I use a Chrome extension called **User JavaScript and CSS** to inject the CSS and JS: 
