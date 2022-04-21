@@ -1,5 +1,23 @@
 var current_url = window.location.href;
 
+// STICKY NAV
+$(function(){
+ var offsettopvalue = $("#nav").offset().top;
+ 
+  $(this).scroll(function(){
+      var scrolltopvlaue = $(this).scrollTop();
+    
+      if(scrolltopvlaue >= offsettopvalue)
+      {
+        $("#nav").addClass("fixed")
+      }
+      else
+     {
+       $("#nav").removeClass("fixed")
+     }
+  });
+});
+
 // AIRPORT page
 if (current_url.indexOf('/airport.jsp') > 0) {
 	$('.form').addClass('airport-search');
@@ -34,6 +52,7 @@ if (current_url.indexOf('/aircraftforsale.jsp') > 0) {
 		$('html,body').animate({scrollTop: $('#aircraftTable').offset().top});
 		// $('body').animate({ scrollTop: $("#aircraftTable").offset().top }, 500);
 	})
+	//aircraftforsale
 }
 
 // LOG
@@ -51,6 +70,7 @@ if (current_url.indexOf('/paymentlog.jsp') > 0) {
 	// var img = $('.dataTable td:nth-child(8) a img').remove()
 	// $('.dataTable td:nth-child(8)').prepend(img)
 }
+
 
 // FBO for sale
 // if (current_url.indexOf('/fbosforsale.jsp') > 0) {}
