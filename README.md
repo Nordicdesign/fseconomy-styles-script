@@ -16,7 +16,7 @@ This will not upload anything to FSE, just change how it looks *on your browser*
 I use a Chrome extension called **User JavaScript and CSS** to inject the CSS and JS: 
 https://chrome.google.com/webstore/detail/user-javascript-and-css/nbhcbdghjpllgmfilhnhkllmkecfmpld
 
-* Once the extension is installed, download the `.json` file from the list above
+* Once the extension is installed, download the most recent `.json` file from the list above (currently user-js-css-v8-220421.json)
 * Open your extension settings. Under "Settings > Backup" you'll see an option to to `Upload and apply`. Give it the json file you have just downloaded, and it will set it up for you. 
 * Go back to the _Sites_ tab and make sure `FSEconomy server` is active 
 
@@ -29,3 +29,12 @@ While browsing FSE's server click on the extension. You'll see a toggle to turn 
 Maybe you prefer to use Greasemonkey, Violentmonkey or other extension, please feel free and let me know how it works. That's why I have uploaded 2 separate files with the CSS and the JS respectively, so you can use whatever you want.
 
 Maybe in the future I'd move to one of those if it's easier to share. 
+
+## Changes
+
+v1.1 21/04/2022 
+
+* Added sticky nav
+
+v1.0 11/02/2022
+First version. 
